@@ -1,0 +1,36 @@
+{
+  "node_modules/papercss/dist/paper.css": {
+    "file": "assets/paper-4151aca4.css",
+    "isEntry": true,
+    "src": "node_modules/papercss/dist/paper.css"
+  },
+  "node_modules/papercss/dist/paper.min.css": {
+    "file": "assets/paper.min-63b82f80.css",
+    "isEntry": true,
+    "src": "node_modules/papercss/dist/paper.min.css"
+  },
+  "resources/assets/img/noise.png": {
+    "file": "assets/noise-a996cc8d.png",
+    "src": "resources/assets/img/noise.png"
+  },
+  "resources/assets/js/app.js": {
+    "file": "assets/app-4ed993c7.js",
+    "isEntry": true,
+    "src": "resources/assets/js/app.js"
+  },
+  "resources/assets/sass/app.scss": {
+    "file": "assets/app-1895ed5d.css",
+    "isEntry": true,
+    "src": "resources/assets/sass/app.scss"
+  },
+  "resources/assets/sass/layout.scss": {
+    "file": "assets/layout-8f71b7d8.css",
+    "isEntry": true,
+    "src": "resources/assets/sass/layout.scss"
+  },
+  "resources/assets/sass/noise.scss": {
+    "file": "assets/noise-559d00f6.css",
+    "isEntry": true,
+    "src": "resources/assets/sass/noise.scss"
+  }
+}

@@ -1,0 +1,40 @@
+
+.auth {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form {
+    padding: calc(1 * var(--fluid));
+    width: calc(20 * var(--fluid));
+    transition: width var(--speed) ease;
+}
+
+form.user-auth {
+    width: calc(15 * var(--fluid));
+}
+
+.form--outer:nth-child(-n + 4) {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form--outer.form-cta { margin-top: calc(.5 * var(--fluid)); }
+
+.form--inner {
+    flex: 1 1 10em;
+    margin: calc(.25 * var(--fluid));
+}
+
+input, label, button { transition: all var(--speed) ease; }
+
+label { font-size: calc(.65 * var(--fluid)); }
+
+input, .error-text { 
+    font-size: calc(.5 * var(--fluid)); 
+    width: 100%; 
+}
+
+button { letter-spacing: .2em; }

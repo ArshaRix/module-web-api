@@ -1,0 +1,32 @@
+
+.navigation, .navbar, .navbar--outer {
+    display: flex;
+}
+
+.navigation {
+    justify-content: center;
+    position: fixed;
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 5rem;
+}
+
+.navbar {
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.navbar--outer {
+    align-items: center;
+}
+
+a {
+    font-size: clamp(calc(.5 * var(--fluid)), 1.025vw, 1.036rem );
+    transition: color calc(var(--speed) - 2) ease;
+}
+
+a:hover {
+    color: rgba(var(--col-orange), 1);
+}

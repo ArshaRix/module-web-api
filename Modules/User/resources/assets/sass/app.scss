@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    --col-white: 241, 241, 241;
+    --col-black: 32, 33, 36;
+    --col-gray: 51, 51, 51;
+    --col-light-gray: 163, 163, 163;
+    --col-orange: 218, 81, 30;
+
+    --fluid: (1.5vh + 1.1vw);
+    --speed: 600ms;
+}
+
+@import url('./noise.scss');
+@import url('./layout.scss');
+@import url('../../../node_modules/papercss/dist/paper.css');
+@import url('../../../node_modules/papercss/dist/paper.min.css');
